@@ -1,0 +1,11 @@
+prefix=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

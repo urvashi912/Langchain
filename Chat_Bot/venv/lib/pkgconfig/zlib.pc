@@ -1,0 +1,13 @@
+prefix=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv
+exec_prefix=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv
+libdir=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv/lib
+sharedlibdir=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv/lib
+includedir=/Users/urvashi/ARTIFICIAL INTELLIGENCE/Generative_AI/Langchain/Krish_Naik_Langchain/Chat_Bot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
